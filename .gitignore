@@ -1,0 +1,61 @@
+### CLIENT ###
+
+# compiled output
+frontend/target
+frontend/src/main/client/tmp
+frontend/src/main/client/out-tsc
+
+# dependencies
+frontend/src/main/client/node
+frontend/src/main/client/node_modules
+
+
+# misc
+frontend/src/main/client/.sass-cache
+frontend/src/main/client/connect.lock
+frontend/src/main/client/tslint-output.json
+frontend/src/main/client/coverage
+frontend/src/main/client/libpeerconnection.log
+*.log
+frontend/src/main/client/typings
+
+# e2e
+frontend/src/main/client/e2e/*.js
+frontend/src/main/client/e2e/*.map
+
+# IDE - VSCode
+
+frontend/src/main/client/.vscode/*
+
+!.vscode/settings.json
+
+!.vscode/tasks.json
+
+!.vscode/launch.json
+
+!.vscode/extensions.json
+
+
+### SERVER ###
+
+### STS ###
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+
+### IntelliJ IDEA ###
+backend/.idea
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+
+### NetBeans ###
+backend/nbproject/private/
+backend/build/
+backend/nbbuild/
+backend/dist/
+backend/nbdist/
+backend/.nb-gradle/
